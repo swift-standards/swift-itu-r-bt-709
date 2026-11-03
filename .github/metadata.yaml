@@ -1,0 +1,11 @@
+# .github/metadata.yaml
+description: "Swift implementation of ITU-R BT.709: Parameter values for the HDTV standards for production and international programme exchange."
+topics:
+  - standards
+  - itu
+  - itu-r-bt-709
+  - video
+  - color-spaces
+homepage: "https://swift-institute.org"
+readme:
+  family: E
