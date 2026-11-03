@@ -12,18 +12,18 @@ let package = Package(
         .visionOS(.v27),
     ],
     products: [
-        .library(name: "ITU-R BT.709", targets: ["ITU-R BT.709"])
+        .library(name: "ITU-R BT 709", targets: ["ITU-R BT 709"])
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "ITU-R BT.709",
+            name: "ITU-R BT 709",
             dependencies: []
         ),
         .testTarget(
-            name: "ITU-R BT.709 Tests",
+            name: "ITU-R BT 709 Tests",
             dependencies: [
-                .target(name: "ITU-R BT.709")
+                .target(name: "ITU-R BT 709")
             ]
         ),
     ],
