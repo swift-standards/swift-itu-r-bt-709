@@ -14,11 +14,13 @@ let package = Package(
     products: [
         .library(name: "ITU-R BT 709", targets: ["ITU-R BT 709"])
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/swift-standards/swift-itu.git", branch: "main")
+    ],
     targets: [
         .target(
             name: "ITU-R BT 709",
-            dependencies: []
+            dependencies: [.product(name: "ITU", package: "swift-itu")]
         ),
         .testTarget(
             name: "ITU-R BT 709 Tests",

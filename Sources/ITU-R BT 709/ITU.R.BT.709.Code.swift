@@ -1,4 +1,4 @@
-extension ITU_R_BT_709 {
+extension ITU.R.BT.`709` {
     /// Digital Y′, Cb and Cr code values.
     public struct Code: Sendable, Hashable {
         public let luma: UInt16
